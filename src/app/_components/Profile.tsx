@@ -41,14 +41,14 @@ const Profile = (props: Props) => {
       </div>
       <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md mt-2">
         <FontAwesomeIcon icon={faFacebook} className="mr-1" />
-        <b>พฤฒภณ ปริตรศิรประภา</b>
+        <p>พฤฒภณ ปริตรศิรประภา</p>
         <div>
-          <FontAwesomeIcon icon={faInstagram} />
-          <b>been_ryl</b>
+          <FontAwesomeIcon icon={faInstagram} className="mr-1" />
+          <p>been_ryl</p>
         </div>
         <div>
-        <FontAwesomeIcon icon={faGoogle} />
-        <b>Pruettapon007@gmail.com</b>
+        <FontAwesomeIcon icon={faGoogle} className="mr-1" />
+        <p>Pruettapon007@gmail.com</p>
         </div>
       </div>
 
