@@ -20,7 +20,7 @@ const Portfolio = (props: Props) => {
           </li>
           <li>
             <a
-              href="https://github.com/wu-web-camp/web-profile-2024"
+              href="https://github.com/ZeusZoam/web-profile-2024"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500"
