@@ -1,6 +1,7 @@
-import{
+import {
   faFacebook,
-  faInstagram
+  faInstagram,
+  faGoogle,
 
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -38,13 +39,19 @@ const Profile = (props: Props) => {
           <b>Location:</b>Suratthani
         </p>
       </div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
-      <FontAwesomeIcon icon={faFacebook} className="mr-1" />
+      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md mt-2">
+        <FontAwesomeIcon icon={faFacebook} className="mr-1" />
         <b>พฤฒภณ ปริตรศิรประภา</b>
+        <div>
+          <FontAwesomeIcon icon={faInstagram} />
+          <b>been_ryl</b>
         </div>
         <div>
-        <FontAwesomeIcon icon={faInstagram} />
+        <FontAwesomeIcon icon={faGoogle} />
+        <b>Pruettapon007@gmail.com</b>
+        </div>
       </div>
+
     </div>
   );
 };
