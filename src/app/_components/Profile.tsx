@@ -15,9 +15,9 @@ const Profile = (props: Props) => {
           className="w-3/4 aspect-square rounded-full border-4 border-white"
         />
       </div>
-      <div className="text-center">Pruettapon Paritsiraprapa</h1>
-        <p className="text-base">Computer Engineer<
-        <h1 className="text-2xl font-bold">Prue/p>
+      <div className="text-center">
+        <h1 className="text-2xl font-bold">Pruettapon Paritsiraprapa</h1>
+        <p className="text-base">Computer Engineer</p>
       </div>
 
       <div className="py-10 text-center ">" May the force be with you "</div>
