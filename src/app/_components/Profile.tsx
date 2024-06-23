@@ -1,3 +1,9 @@
+import{
+  faFacebook,
+  faInstagram
+
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 
@@ -32,7 +38,12 @@ const Profile = (props: Props) => {
           <b>Location:</b>Suratthani
         </p>
         <div>
-        <FontAwesomeIcon icon={faFacebook} className="h-10"/>
+        <FontAwesomeIcon icon={faFacebook} />
+
+        </div>
+        <div>
+        <FontAwesomeIcon icon={faInstagram} />
+
         </div>
       </div>
     </div>
