@@ -31,6 +31,9 @@ const Profile = (props: Props) => {
         <p>
           <b>Location:</b>Suratthani
         </p>
+        <div>
+        <FontAwesomeIcon icon={faFacebook} className="h-10"/>
+        </div>
       </div>
     </div>
   );
